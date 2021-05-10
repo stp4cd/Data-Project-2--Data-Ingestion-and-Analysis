@@ -6,10 +6,17 @@ To do this, I created a python file that calls the given API and fetches the dat
 
 The first plot that is produced plots how the pi value changes based on the factor value. By looking at the plot produced (output1.png can be found amongst the files) one can easily see that as factor increases, the pi value converges to a value of approximately 3.14. This is because ____. 
 
+The second plot (output2.png) produced is a scatter plot that indicates how the factor value changes over time. The value seems to be repetitive in nature where after it reaches a certain value, it drops down to it's initial value and starts increasing exponentially again. Lastly, the third plot reemphasizes the converging nature of the pi value by plotting the pi value against time. We see a very similar pattern to the first plot, and we can also see that when the factor value hits its final value and drops to its initial to start over, this is reflected in the pi value over time. When the factor value drops, we see the pi value stray greatly from the value it converges to (~3.14). 
 
 
+# Files
 
-everyminute1.png
-everyminute2.png 
+1. proj2b.py : This file contains the python script.
+2. everyminute1.png and everyminute2.png : Alongside the data fields being fetched from the API every minute, a print statement is used to check the progress over the hour. These screenshots are of the printed data values, and the time data field indicates that the process occurs every minute exactly. There are two screenshots due to sizing issues when taking a screenshot, but I wanted to include all 60 printed lines to show that the process runs for 60 minutes. 
+3. output1.png : When running the python file, this is one of the figures that is printed. It is the scatterplot that visualizes the relationship between the data fields factor and pi. 
+4. output2.png : When running the python file, this is one of the figures that is printed. It is the scatterplot that visualizes the relationship between the data fields factor and time. 
+5. output3.png : When running the python file, this is one of the figures that is printed. It is the scatterplot that visualizes the relationship between the data fields pi and time. 
+ 
+
 
 
